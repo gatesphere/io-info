@@ -28,4 +28,4 @@ Public domain.
 
 ## Why?
 
-Easier to debug issues, and an easy way to report installed addons for iobin builds.
+Easier to debug issues, and an easy way to report installed addons for [iobin](http://iobin.suspended-chord.info/) builds.
