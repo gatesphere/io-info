@@ -34,7 +34,7 @@ if(all or distinfo,
 
 if(all or addinfo,
   info = info .. "Io Language Addons installed:\n"
-  AddonLoader addons foreach(a, info = info .. ("  #{a name}:  #{a addonPath}\n" interpolate))
+  AddonLoader addons sort foreach(a, info = info .. ("  #{a name}:  #{a addonPath}\n" interpolate))
 )
 
 info = info interpolate
