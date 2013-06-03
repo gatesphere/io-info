@@ -34,7 +34,7 @@ if(all or distinfo,
 
 if(all or addinfo,
   info = info .. "Io Language Addons installed:\n"
-  AddonLoader addons sortBy(block(a, b, a name < b name) foreach(a, 
+  AddonLoader addons sortBy(block(a, b, a name < b name)) foreach(a, 
     info = info .. ("  #{a name}:  #{a addonPath}\n" interpolate))
 )
 
